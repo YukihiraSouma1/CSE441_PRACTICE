@@ -40,7 +40,7 @@
                 android:id="@+id/textView1"
                 android:layout_width="137dp"
                 android:layout_height="wrap_content"
-                android:text="Nhập A"
+                android:text="Nhập a"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <EditText
@@ -63,7 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Nhập B"
+                android:text="Nhập b"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
             <EditText
