@@ -18,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
     Button btncong;
 
 
+
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         edtA = findViewById(R.id.edtA);
         edtB = findViewById(R.id.edtB);
         edtKQ = findViewById(R.id.edtKQ);
-        btncong = findViewById(R.id.btntong);
+        btncong = findViewById(R.id.btnTong);
         btncong.setOnClickListener(new View.OnClickListener() {
 
 
