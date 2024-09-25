@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             int a = Integer.parseInt("0"+edt1.getText());
             int b = Integer.parseInt("0"+edt2.getText());
-// TODO Auto-generated method stub
+
             edt3.setText("a + b =" +(a+b));
         }
         });
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             int a = Integer.parseInt("0"+edt1.getText());
             int b = Integer.parseInt("0"+edt2.getText());
-// TODO Auto-generated method stub
+
             edt3.setText("a - b =" +(a-b));
         }
         });
@@ -49,14 +49,14 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View v) {
             int a = Integer.parseInt("0"+edt1.getText());
             int b = Integer.parseInt("0"+edt2.getText());
-// TODO Auto-generated method stub
+
             edt3.setText("a * b =" +(a*b));
         }
         });
         btnthuong.setOnClickListener(new  View.OnClickListener() {
             @Override
             public void onClick(View v) {
-// TODO Auto-generated method stub
+
                 int a = Integer.parseInt("0" + edt1.getText());
                 int b = Integer.parseInt("0" + edt2.getText());
                 if (b == 0)
