@@ -42,7 +42,7 @@
                     android:text="Nhập a:" />
 
                 <EditText
-                    android:id="@+id/editTextText"
+                    android:id="@+id/edita"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -61,7 +61,7 @@
                     android:text="Nhập b:" />
 
                 <EditText
-                    android:id="@+id/editTextText2"
+                    android:id="@+id/editb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -80,7 +80,7 @@
                     android:text="Nhập c:" />
 
                 <EditText
-                    android:id="@+id/editTextText3"
+                    android:id="@+id/editc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -92,19 +92,19 @@
                 android:layout_height="match_parent">
 
                 <android.widget.Button
-                    android:id="@+id/button4"
+                    android:id="@+id/btntieptuc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tiếp tục" />
 
                 <android.widget.Button
-                    android:id="@+id/button5"
+                    android:id="@+id/btngiaipt"
                     android:layout_width="161dp"
                     android:layout_height="match_parent"
                     android:text="Giải phương trình" />
 
                 <android.widget.Button
-                    android:id="@+id/button6"
+                    android:id="@+id/btnthoat"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Thoát" />
@@ -114,7 +114,7 @@
         </TableLayout>
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/txtkq"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#539405" />
