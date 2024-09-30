@@ -1,5 +1,6 @@
 package com.example.ex04;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         btncf = findViewById(R.id.btnCel);
         btnfc = findViewById(R.id.btnFar);
         btncf.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
         btnfc.setOnClickListener(new  View.OnClickListener()  {
 
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
                 DecimalFormat dcf=new DecimalFormat("#.00");
