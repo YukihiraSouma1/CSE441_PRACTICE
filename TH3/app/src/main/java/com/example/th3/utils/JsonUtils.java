@@ -5,9 +5,12 @@ import android.util.Log;
 
 
 import com.example.th3.ui.MainActivity;
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
 import com.example.th3.model.data.Student;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -40,7 +43,7 @@ public class JsonUtils {
     public static List<Student> readStudentsFromJson(MainActivity mainActivity) {
         return java.util.Collections.emptyList();
     }
-        return gson.fromJson(json, studentListType);
+//        return gson.fromJson(json, studentListType);
 }
 
 
