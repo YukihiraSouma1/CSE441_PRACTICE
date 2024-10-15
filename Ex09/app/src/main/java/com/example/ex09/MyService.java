@@ -37,3 +37,4 @@ public class MyService extends Service {
         super.onDestroy();
         mediaPlayer.stop();
 }
+}
