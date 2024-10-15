@@ -6,14 +6,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <TextView
+    <ImageButton
+        android:id="@+id/img_btn_camera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:background="@drawable/background_camera"
+        android:src="@drawable/ic_camera"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/img_view_person"
+        android:layout_width="292dp"
+        android:layout_height="238dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="TODO"
+        app:layout_constraintBottom_toTopOf="@+id/img_btn_camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.625"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314"
+        app:srcCompat="@mipmap/image_bg"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@mipmap/image_bg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
