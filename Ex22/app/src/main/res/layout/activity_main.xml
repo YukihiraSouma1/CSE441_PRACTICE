@@ -8,20 +8,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Internet Working"
-        android:textSize="20sp"
-        android:background="#FF0000"
-        android:textColor="#FFFFFF"
-        android:padding="10dp"
-        android:gravity="center"
-        android:id="@+id/textView"
-
-        />
-
-    <Button
+    <android.widget.Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
