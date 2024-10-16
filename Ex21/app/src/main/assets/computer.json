@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Acer",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "name": "Lenovo",
+      "price": 2000
+    },
+    {
+      "id": 3,
+      "name": "Mac ",
+      "price": 800
+    },
+    {
+      "id": 4,
+      "name": "Dell",
+      "price": 1500
+    },
+    {
+      "id": 5,
+      "name": "Asus",
+      "price": 1200
+    },
+    {
+      "id": 6,
+      "name": "HP ",
+      "price": 1600
+    }
+  ],
+  "category_id": 1,
+  "category_name": "Computer"
+}
