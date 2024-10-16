@@ -26,10 +26,6 @@ public class MyArrayAdapter extends ArrayAdapter<ContactsContract.CommonDataKind
         this.phoneList = phoneList;
     }
 
-    public MyArrayAdapter(MainActivity mContext, int listViewItem, List<Phone> phoneList) {
-        super();
-    }
-
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup
