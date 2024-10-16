@@ -29,10 +29,12 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    useLibrary("org.apache.http.legacy")
 }
 
 dependencies {
-
+    implementation("org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
