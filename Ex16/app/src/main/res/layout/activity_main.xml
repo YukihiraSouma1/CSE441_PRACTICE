@@ -14,19 +14,22 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nhập A:" />
+        android:text="Nhập A:"
+        android:textColor="#0987EC" />
 
     <EditText
         android:id="@+id/etNumberA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number" />
+
     <TextView
         android:id="@+id/textView1"
-        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nhập B:" />
+        android:layout_marginTop="20dp"
+        android:text="Nhập B:"
+        android:textColor="#0987EC" />
 
 
     <EditText
@@ -40,10 +43,15 @@
         android:id="@+id/tvResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kết quả"
-        android:padding="10dp"
-        android:textSize="18sp"
-        android:gravity="center" />
+        android:text="Kết quả"
+        android:textColor="#0987EC" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" />
 
     <!-- Buttons -->
     <LinearLayout
