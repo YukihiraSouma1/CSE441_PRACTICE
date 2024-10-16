@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tabhost" type="id" />
+    <item name="tab1" type="id" />
+    <item name="tab2" type="id" />
+    <item name="tab3" type="id" />
+    <item name="listViewTab1" type="id" />
+    <item name="listViewTab2" type="id" />
+    <item name="listViewTab3" type="id" />
+</resources>
