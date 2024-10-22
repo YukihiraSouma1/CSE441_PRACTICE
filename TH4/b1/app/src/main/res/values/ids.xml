@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="tvName" type="id" />
+    <item name="tvMSSV" type="id" />
+    <item name="tvClass" type="id" />
+    <item name="tvGrade" type="id" />
+    <item name="btnEdit" type="id" />
+    <item name="btnDelete" type="id" />
 </resources>
